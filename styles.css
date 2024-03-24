@@ -1,0 +1,54 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling main content */
+main {
+    padding: 20px;
+}
+
+/* Styling sections */
+section {
+    margin-bottom: 30px;
+}
+
+/* Styling headings */
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Styling links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header {
+        font-size: 24px;
+    }
+}
